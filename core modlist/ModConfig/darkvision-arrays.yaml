@@ -1,0 +1,12 @@
+version: 3
+
+# list of item codes used to see if you are holding a light emitting item. will do partial matches. use dev mode to determine the item's name.
+light-sources: torch-basic-lit, game:lantern, game:candle, game:oillamp,
+
+# blocks you want the rays from the raycaster to go through and ignore. will do partial matches. ideally put transparent or not *full* blocks under. use dev mode to determine the blocks' name.
+transparent-blocks: leaves, glass, clutter, tallgrass, water, fern, flower, tallplant, mushroom, wildvine, bush, fence, beam, coral
+
+# wearable light sources that should disable dark adaptation when worn. use dev mode to determine the item's name.
+# uses rudimentary checks to determine if the light is toggleable. if it is unable to determine the light status, then it assumes the light is on when wearing the item at all times.
+# if your light has a toggle / not on at all times and is not being detected properly and you are sure the name entered below is correct, please report it.
+wearable-light-sources: fueledwearablelights:wearablelight

@@ -1,0 +1,182 @@
+version: 4
+
+
+# You don't need to restart the world for changes. They will apply shortly after you hit save.
+
+
+# If true, enforces server configuration settings.
+enforce-server-config: true
+ #  (default: True) 
+
+
+# Common Settings
+
+
+# linear: smooth 0-1 adaptation.
+# ramp: quick initial adaptation up to target percent then works as linear.
+adaptation-mode: ramp
+ # value from: linear, ramp (default: ramp) 
+
+# Time to fully adapt to darkness, in seconds.
+adaptation-time: 60
+ # from 1 to 600 with step of 1 (default: 60) 
+
+# Base time to lose adaptation when exposed to light, in seconds.
+adaptation-loss-time: 30
+ # from 0.5 to 300 with step of 1 (default: 30) 
+
+# Percent of max adaptation to reach when adaptation mode is set to ramp. It will ramp up to the % of max adaptation in the time specified in ramp time.
+ramp-target-percent: 60
+ # from 0 to 100 with step of 1 (default: 60) 
+
+# Time to reach ramp target. Does nothing if using linear.
+ramp-time: 15
+ # from 0.1 to 60 with step of 1 (default: 15) 
+
+# Brightness boost when fully adapted. 0 = no boost, 1 = full bright.
+max-brightness: 0.2
+ # from 0 to 1 with step of 0.01 (default: 0.2) 
+
+# How often to check light levels at the player position.
+light-sampling-rate: 200
+ # from 100 to 1000 with step of 50 (default: 200) 
+
+
+# Held Light Sources
+
+
+# How quickly you lose adaptation when holding or wearing a light source, in seconds.
+held-light-unadaptation-time: 1
+ # from 0.1 to 10 with step of 0.1 (default: 1) 
+
+# Maximum adaptation allowed while holding or wearing a light. 0 = no adaptation, 1 = full.
+light-source-adaptation-cap: 0
+ # from 0 to 1 with step of 0.01 (default: 0) 
+
+
+# Advanced Settings
+
+
+# At or below this light level, eyes start adapting to darkness.
+min-brightness-level: 5
+ # from 0 to 32 with step of 1 (default: 5) 
+
+# At or above this light level, eyes start losing adaptation.
+min-unadaptation-brightness-level: 6
+ # from 0 to 32 with step of 1 (default: 6) 
+
+# Maximum brightness considered for unadaptation scaling.
+max-unadaptation-light-level: 18
+ # from 0 to 32 with step of 1 (default: 18) 
+
+# How much bright lights should speed up adaptation loss. Scales linearly from min to max unadaptation level
+max-unadaptation-multiplier: 10
+ # from 1 to 50 with step of 1 (default: 10) 
+
+# Reduces sunlight readings to compensate for erroneous nighttime ambient light.
+sun-light-compensation: 5
+ # from 0 to 10 with step of 1 (default: 5) 
+
+
+# Visual Effects
+
+
+# How strong should the desaturation be when threshold is reached. 0 = off, 1 = full grayscale.
+max-desaturation-strength: 0.75
+ # from 0 to 1 with step of 0.01 (default: 0.75) 
+
+# Adaptation level at which desaturation reaches maximum strength.
+desaturation-threshold: 0.2
+ # from 0 to 1 with step of 0.01 (default: 0.2) 
+
+# Duration of the exposure effect when leaving darkness. 0 = disabled.
+exposure-lag: 7
+ # from 0 to 30 with step of 1 (default: 7) 
+
+# Adaptation value where exposure effect reaches maximum strength.
+max-exposure-at-adaptation: 0.5
+ # from 0 to 1 with step of 0.01 (default: 0.5) 
+
+# Strength of exposure effect. 0 = disabled.
+exposure-multiplier: 1
+ # from 0 to 2 with step of 0.1 (default: 1) 
+
+
+# Raycast Detection
+
+
+# Enables look based light detection.
+enable-raycast-detection: true
+ #  (default: True) 
+
+# normal: 5x3 grid, accurate to ~50 blocks.
+# high: 7x5 grid, accurate to ~80 blocks (more expensive).
+raycast-preset: normal
+ # value from: normal, high (default: normal) 
+
+# How often to perform raycasts. Lower = more responsive but more expensive.
+raycast-update-interval: 500
+ # from 200 to 2000 with step of 50 (default: 500) 
+
+# Maximum distance to detect lights. Higher values are more expensive.
+raycast-max-distance: 40
+ # from 5 to 128 with step of 1 (default: 40) 
+
+# Distance where lights are considered close range. Close range adaptation loss is 1x at this distance.
+close-range-start: 12
+ # from 1 to 50 with step of 1 (default: 12) 
+
+# Distance where close range adaptation loss multiplier reaches maximum.
+close-range-end: 2
+ # from 1 to 50 with step of 1 (default: 2) 
+
+# Adaptation loss multiplier for close lights. Stacks multiplicatively with unadaptation multiplier.
+close-range-multiplier: 4
+ # from 1 to 50 with step of 1 (default: 4) 
+
+
+# Dynamic Lights
+
+
+# Enable the dynamic light detection system.
+enable-dynamic-light-detection: true
+ #  (default: True) 
+
+# How many rings (max circle radius) to generate around the light source for detection. Dynamic lights fall off very hard after 6 blocks and almost completely after 10.
+dynamic-lights-max-rings: 10
+ # from 1 to 15 with step of 1 (default: 10) 
+
+# How fast should we check for dynamic light sources in milliseconds.
+dynamic-lights-update-interval: 500
+ # from 200 to 2000 with step of 50 (default: 500) 
+
+# Maximum number of light sources to check per run. Multiple light sources are checked only if they are completely occluded.
+dynamic-lights-max-sources: 5
+ # from 1 to 20 with step of 1 (default: 5) 
+
+# At which distance from closest light source the mod switches to using a less performance intensive LOS check.
+dynamic-lights-distant-threshold: 20
+ # from 10 to 50 with step of 1 (default: 20) 
+
+# How many rings (max circle radius) to generate around the light source past the threshold distance.
+dynamic-lights-distant-max-rings: 6
+ # from 1 to 15 with step of 1 (default: 6) 
+
+# Horizontal radius around the player to scan for light sources.
+dynamic-lights-scan-horizontal-radius: 40
+ # from 5 to 100 with step of 5 (default: 40) 
+
+# Vertical radius around the player to scan for light sources.
+dynamic-lights-scan-vertical-radius: 20
+ # from 5 to 50 with step of 5 (default: 20) 
+
+# Field of view cone in degrees for light detection.
+dynamic-lights-view-cone-fov: 160
+ # from 60 to 360 with step of 10 (default: 160) 
+
+# If you are closer to a dynamic light than this value, FOV check is ignored. Used to disable adaptation if you are looking away from a dynamic light but inside its light radius.
+dynamic-lights-full-fov-distance: 5
+ # from 1 to 10 with step of 1 (default: 5) 
+
+
+# What blocks should count as transparent cannot be configured here. Check the mod page for info.

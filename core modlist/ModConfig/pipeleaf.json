@@ -1,0 +1,5 @@
+{
+  "BurnIncrementHours": 2.0,
+  "MaxTotalBurnHours": 6.0,
+  "EffectCooldown": 1.25
+}

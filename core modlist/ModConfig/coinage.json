@@ -1,0 +1,8 @@
+{
+  "CreateCoinPrivilege": "useblock",
+  "CreateCoinCharacterClass": "",
+  "CreateCoinTrait": "minter",
+  "RequireCreateCoinPermissionToCraftCoinageItems": false,
+  "RequiredHammerToolTier": 3,
+  "HammerCooldownMilliseconds": 1000
+}

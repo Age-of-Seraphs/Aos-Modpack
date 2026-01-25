@@ -1,0 +1,10 @@
+{
+  "Comment": "Stamina costs for ClimbMountain (values are in Vigor stamina points).",
+  "JumpStaminaCost": 20.0,
+  "ClimbStaminaPerSecond": 5.0,
+  "MaterialsComment": "Decides what block material is climbable. those are the vanilla block materials available: Air,Soil,Gravel,Sand,Wood,Leaves,Stone,Ore,Liquid,Snow,Ice,Metal,Mantle,Plant,Glass,Ceramic,Cloth,Brick.",
+  "ClimbableMaterials": [
+    "Stone",
+    "Ore"
+  ]
+}
