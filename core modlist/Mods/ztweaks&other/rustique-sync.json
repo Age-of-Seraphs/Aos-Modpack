@@ -1,0 +1,111 @@
+{
+  "RustiqueSync": {
+    "aosservertweaks": {
+      "file_name": "aosservertweaks_1.6.0.zip",
+      "mod_name": "Age of Seraphs Server Tweaks",
+      "installed_version": "1.6.0",
+      "latest_known_version": "1.6.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/aosservertweaks_1.6._96847146f67666386857e4ccaa3cc47f.zip?dl=aosservertweaks_1.6.0.zip",
+      "game_versions": [
+        "1.21.0-pre.1",
+        "1.21.0-pre.2",
+        "1.21.0-pre.3",
+        "1.21.0-rc.1",
+        "1.21.0-rc.2",
+        "1.21.0-rc.3",
+        "1.21.0-rc.4",
+        "1.21.0-rc.5",
+        "1.21.0-rc.6",
+        "1.21.0-rc.7",
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>testing version</p>",
+      "is_symlink": false
+    },
+    "carryon": {
+      "file_name": "CarryOn-1.21.0_v1.12.1.zip",
+      "mod_name": "Carry On",
+      "installed_version": "1.12.1",
+      "latest_known_version": "1.13.0-pre.2",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/CarryOn-1.21.0_v1.13_4533c96774f880e19f3277672b3a6709.zip?dl=CarryOn-1.21.0_v1.13.0-pre.2.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<ul>\r\n<li>Fix painful vessel dupe</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "offlinefoodnospoil": {
+      "file_name": "OfflineFoodNoSpoil_1.4.0-1.20.zip",
+      "mod_name": "No offline food spoil",
+      "installed_version": "1.4.0",
+      "latest_known_version": "2.0.0-dev.1",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/OfflineFoodNoSpoil_2_ea1aec23f771e729510f84b3e416692d.zip?dl=OfflineFoodNoSpoil_2.0.0-dev.1-1.21.6.zip",
+      "game_versions": [
+        "1.21.0-pre.1",
+        "1.21.0-pre.2",
+        "1.21.0-pre.3",
+        "1.21.0-rc.1",
+        "1.21.0-rc.2",
+        "1.21.0-rc.3",
+        "1.21.0-rc.4",
+        "1.21.0-rc.5",
+        "1.21.0-rc.6",
+        "1.21.0-rc.7",
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<ul>\r\n<li>Ensure the item is completely unfrozen in order to compute the remaining time, hopefully preventing permanently frozen food</li>\r\n<li>Fixed a strange behavior where ingredients would be corrupted if additional attributes are allocated to them</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "materialneedsaculinaryartillerycompatibilitypatch": {
+      "file_name": "MaterialNeedsACulinaryArtilleryCompatibilityPatch.zip",
+      "mod_name": "MaterialNeedsACulinaryArtilleryCompatibilityPatch",
+      "installed_version": "1.0.0",
+      "latest_known_version": "1.0.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/MaterialNeedsACulina_c15ebc193c582fd4a80e0e514e6722a8.zip?dl=MaterialNeedsACulinaryArtilleryCompatibilityPatch.zip",
+      "game_versions": [
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<ul>\r\n<li>use ACA oak bark in dark brown dye craft</li>\r\n<li>add light aged wood variants for meat hook, bottle rack, bottle rack corner, and rolling pin</li>\r\n<li>make aged rolling pin recipe use very aged debark log</li>\r\n<li>prevent unwanted check of nonexistant debarked log variants</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>Made for Material Needs 1.1.13 and A Culinary Artillery 2.0.0-dev.11. May or may not work for other versions.</p>",
+      "is_symlink": false
+    }
+  },
+  "last_sync": "2026-02-22 01:10",
+  "file_location": "C:\\\\Users\\\\Daniel\\\\Desktop\\\\Aos-Modpack\\\\core modlist\\\\Catagories\\ztweaks&other\\rustique-sync.json"
+}

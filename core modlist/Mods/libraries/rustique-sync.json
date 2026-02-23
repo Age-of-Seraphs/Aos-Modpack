@@ -1,0 +1,179 @@
+{
+  "RustiqueSync": {
+    "autoconfiglib": {
+      "file_name": "autoconfiglib_2.0.9.zip",
+      "mod_name": "Auto config lib",
+      "installed_version": "2.0.9",
+      "latest_known_version": "2.0.9",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/autoconfiglib_2.0.9_c7d6e26d7c68a02774a8ef0eb6cb92ae.zip?dl=autoconfiglib_2.0.9.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1"
+      ],
+      "latest_changelog": "<p>enabled world config editor again. (don't know what happend but it works again)</p>",
+      "is_symlink": false
+    },
+    "genelib": {
+      "file_name": "genelib_2.1.6.zip",
+      "mod_name": "Genelib",
+      "installed_version": "2.1.6",
+      "latest_known_version": "2.1.6",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/genelib_2.1.6_dd08ed488c95fcd6a74b835ed2cf672b.zip?dl=genelib_2.1.6.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<div class=\"markdown-body my-3\" data-pjax=\"true\" data-test-selector=\"body-content\" data-view-component=\"true\">\r\n<ul>\r\n<li>Fixed: Animals walking towards each other to breed wouldn't first get up if they were sleeping</li>\r\n<li>Fixed: Deer and goat pregnancies lost on updating from VS 1.20 to 1.21</li>\r\n<li>Tweaked display of info to stop warning players about a 1 in a million chance of early (safe) miscarriage. Instead display info afterwards if it does happen.</li>\r\n<li>Possible fix for animals not running AI tasks correctly seen with Detail Animals</li>\r\n<li>Animals named using the Entity Nametags mod should now show up properly in the pedigree info, as long as the parent was named before the child was conceived</li>\r\n</ul>\r\n</div>",
+      "is_symlink": false
+    },
+    "shearlib": {
+      "file_name": "shearlib-1.2.0.zip",
+      "mod_name": "ShearLib",
+      "installed_version": "1.2.0",
+      "latest_known_version": "1.2.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/shearlib-1.2.0_8b7fde80fdcd7049394cfc211d2bdecf.zip?dl=shearlib-1.2.0.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6"
+      ],
+      "latest_changelog": "<h2 dir=\"auto\" data-sourcepos=\"1:1-1:41\"><a id=\"user-content-v120---2025-08-25---more-translations\" class=\"anchor\" href=\"#v120---2025-08-25---more-translations\" aria-hidden=\"true\"></a>v1.2.0 - 2025-08-25 - More Translations</h2>\r\n<ul dir=\"auto\" data-sourcepos=\"3:1-5:0\">\r\n<li data-sourcepos=\"3:1-3:29\">Requires VS 1.21.0 or newer</li>\r\n<li data-sourcepos=\"4:1-5:0\">Switch to dotnet 8.0 and recompile</li>\r\n</ul>\r\n<h3 dir=\"auto\" data-sourcepos=\"6:1-6:15\"><a id=\"user-content-new-features\" class=\"anchor\" href=\"#new-features\" aria-hidden=\"true\"></a>New Features</h3>\r\n<ul dir=\"auto\" data-sourcepos=\"8:1-9:0\">\r\n<li data-sourcepos=\"8:1-9:0\"><a class=\"gfm gfm-issue\" title=\"Reduce drop when damaging sheared entity\" href=\"https://gitlab.com/codesmiths/vs_shearlib/-/issues/24\" data-reference-type=\"issue\" data-original=\"#24\" data-link=\"false\" data-link-reference=\"false\" data-issue=\"172342680\" data-project=\"61882299\" data-iid=\"24\" data-namespace-path=\"codesmiths/vs_shearlib\" data-project-path=\"codesmiths/vs_shearlib\" data-issue-type=\"issue\" data-container=\"body\" data-placement=\"top\" data-popover-listener-added=\"true\">#24</a> - Dropped amount reduced to 1/3 of the animal is hurt during shearing</li>\r\n</ul>\r\n<h3 dir=\"auto\" data-sourcepos=\"10:1-10:12\"><a id=\"user-content-bug-fixes\" class=\"anchor\" href=\"#bug-fixes\" aria-hidden=\"true\"></a>Bug Fixes</h3>\r\n<ul dir=\"auto\" data-sourcepos=\"12:1-15:0\">\r\n<li data-sourcepos=\"12:1-12:65\"><a class=\"gfm gfm-issue\" title=\"Prevent shearing of swimming or burning entities\" href=\"https://gitlab.com/codesmiths/vs_shearlib/-/issues/25\" data-reference-type=\"issue\" data-original=\"#25\" data-link=\"false\" data-link-reference=\"false\" data-issue=\"172362020\" data-project=\"61882299\" data-iid=\"25\" data-namespace-path=\"codesmiths/vs_shearlib\" data-project-path=\"codesmiths/vs_shearlib\" data-issue-type=\"issue\" data-container=\"body\" data-placement=\"top\" data-popover-listener-added=\"true\">#25</a> - Prevent shearing of burning, swimming or stressed animals</li>\r\n<li data-sourcepos=\"13:1-13:97\"><a class=\"gfm gfm-issue\" title=\"&#96;hoursPerUnitMaxReduction&#96; not applied correctly\" href=\"https://gitlab.com/codesmiths/vs_shearlib/-/issues/23\" data-reference-type=\"issue\" data-original=\"#23\" data-link=\"false\" data-link-reference=\"false\" data-issue=\"172342139\" data-project=\"61882299\" data-iid=\"23\" data-namespace-path=\"codesmiths/vs_shearlib\" data-project-path=\"codesmiths/vs_shearlib\" data-issue-type=\"issue\" data-container=\"body\" data-placement=\"top\" data-popover-listener-added=\"true\">#23</a> - <code data-sourcepos=\"13:9-13:34\">hoursPerUnitMaxReduction</code> was always used instead of <code data-sourcepos=\"13:63-13:97\">hoursPerUnitGenerationalReduction</code></li>\r\n<li data-sourcepos=\"14:1-15:0\"><a class=\"gfm gfm-issue\" title=\"NullReferenceException in ShearLib 1.1.2 on client side during desync\" href=\"https://gitlab.com/codesmiths/vs_shearlib/-/issues/22\" data-reference-type=\"issue\" data-original=\"#22\" data-link=\"false\" data-link-reference=\"false\" data-issue=\"171204086\" data-project=\"61882299\" data-iid=\"22\" data-namespace-path=\"codesmiths/vs_shearlib\" data-project-path=\"codesmiths/vs_shearlib\" data-issue-type=\"issue\" data-container=\"body\" data-placement=\"top\" data-popover-listener-added=\"true\">#22</a> - Fix client-side exception when shearing (Thanx, Lantalia &amp; sekelsta!)</li>\r\n</ul>\r\n<h3 dir=\"auto\" data-sourcepos=\"16:1-16:23\"><a id=\"user-content-tweaks-and-balancing\" class=\"anchor\" href=\"#tweaks-and-balancing\" aria-hidden=\"true\"></a>Tweaks and Balancing</h3>\r\n<ul dir=\"auto\" data-sourcepos=\"18:1-19:0\">\r\n<li data-sourcepos=\"18:1-19:0\">The default for minimum generation to shear is now <strong>1</strong></li>\r\n</ul>\r\n<h3 dir=\"auto\" data-sourcepos=\"20:1-20:15\"><a id=\"user-content-translations\" class=\"anchor\" href=\"#translations\" aria-hidden=\"true\"></a>Translations</h3>\r\n<ul dir=\"auto\" data-sourcepos=\"22:1-24:0\">\r\n<li data-sourcepos=\"22:1-22:47\"><a class=\"gfm gfm-issue\" title=\"Add Russian translation\" href=\"https://gitlab.com/codesmiths/vs_shearlib/-/issues/20\" data-reference-type=\"issue\" data-original=\"#20\" data-link=\"false\" data-link-reference=\"false\" data-issue=\"166069484\" data-project=\"61882299\" data-iid=\"20\" data-namespace-path=\"codesmiths/vs_shearlib\" data-project-path=\"codesmiths/vs_shearlib\" data-issue-type=\"issue\" data-container=\"body\" data-placement=\"top\" data-popover-listener-added=\"true\">#20</a> - Add Russian translation (Thanx, Morok!)</li>\r\n<li data-sourcepos=\"23:1-24:0\"><a class=\"gfm gfm-issue\" title=\"Add French translation\" href=\"https://gitlab.com/codesmiths/vs_shearlib/-/issues/19\" data-reference-type=\"issue\" data-original=\"#19\" data-link=\"false\" data-link-reference=\"false\" data-issue=\"166068904\" data-project=\"61882299\" data-iid=\"19\" data-namespace-path=\"codesmiths/vs_shearlib\" data-project-path=\"codesmiths/vs_shearlib\" data-issue-type=\"issue\" data-container=\"body\" data-placement=\"top\" data-popover-listener-added=\"true\">#19</a> - Add French translations (Thanx, Wailwolf!)</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>We hope you enjoy our work,</p>\r\n<p>Tels &amp; Phiwa 🤍</p>\r\n<pre><br />-----BEGIN PGP SIGNATURE----- <br /><br />iQIzBAABCgAdFiEEPNPwZPus2b38SDJdchBxoDxWlFcFAmistGoACgkQchBxoDxW <br />lFf1fQ//eGCsZptvthF/hIeZJjVcRqCIM9kfHAIY+aQ+DGYdQMMH7s1BgZHMjApd <br />CipsMF6P/+PAj841AEkuWJ+5vDdyiuvD9BjYothi5XtdZI2BEcHKGmOH4cY/rklv <br />/OAJV/6hiJ+AaatRa99Zp7IkBRPq69JtATG8a6quvKx7RnuuE7A25UcSymhDYLsm <br />vtVGOKhp8obQj8rQCDOd3RudM1UHolzT7D5soEyNyayekaHTIrkpDQI3/sf90loa <br />Okd1Qo0402UKS2JtL43i/wgBn2gVo+pMiQ9eg4TuArm78v8evTa/zMnPju35WQVj <br />FGAOCEtYMPg/QJwr3Z3FTrvz2kW6BA4y/JcaiwdGsI8zDhWYehCHFT1MUtnJq6Th <br />YbYh6TfmRRznAeNO5YFsGJJhpfP6O4vxM4JtsPxglUZ4aEV/i6X8+5P+HFAoeYB1 <br />enBRhAFfXOy50HFV2xgTdkll2Sc7KTStQyeCllc1OqhBO+JaB+/MCeVDzH4I8fjI <br />nxZBuqNQalSTBCj2pH8DOKWiIT5Vn5+2N3QM2A47FfaECPO+9SPMNGe6QK3CQ8ok <br />bgCSwTHPVunbJSZTOHz/ubXy9pj+YBvgfIbTV3HFn13G4meFwVq1bU03w3h8JnrC <br />gE80g56/vQ4Af54zqikp4deAI7aBh1rl2W/HfJWiDFCcVp9H9Bs= <br />=zj2k <br />-----END PGP SIGNATURE-----<span style=\"font-family: monospace;\"><br /></span></pre>\r\n<pre>&nbsp;</pre>",
+      "is_symlink": false
+    },
+    "vsimgui": {
+      "file_name": "vsimgui_1.1.16.zip",
+      "mod_name": "Dear ImGui",
+      "installed_version": "1.1.16",
+      "latest_known_version": "1.1.16",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/vsimgui_1.1.16_3583e75bc75d85f4b87cc2f4c5d2044a.zip?dl=vsimgui_1.1.16.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "latest_changelog": "<p>Fixed Almendra font</p>",
+      "is_symlink": false
+    },
+    "attributerenderinglibrary": {
+      "file_name": "AttributeRenderingLibrary-v2.4.2.zip",
+      "mod_name": "Attribute Rendering Library",
+      "installed_version": "2.4.2",
+      "latest_known_version": "2.8.1",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/AttributeRenderingLi_692780af77a7a9c7e6efb1b95ae69a5d.zip?dl=AttributeRenderingLibrary-v2.8.1.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>Last 1.21 update. Next updates will be for 1.22</p>\r\n<p>&nbsp;</p>\r\n<p>API Tweak: Now using profiler.Enter() and profiler.Leave() instead of profiler.Mark()<br />API Fixed: The same variants but in different order created duplicated mesh. Variants are now grouped to avoid this</p>",
+      "is_symlink": false
+    },
+    "configlib": {
+      "file_name": "configlib_1.10.13.zip",
+      "mod_name": "Config lib",
+      "installed_version": "1.10.13",
+      "latest_known_version": "1.10.14",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/configlib_1.10.14_2ff5355b3e7c87d216ab1ace6bc1f535.zip?dl=configlib_1.10.14.zip",
+      "game_versions": [
+        "1.21.0-pre.1",
+        "1.21.0-pre.2",
+        "1.21.0-pre.3",
+        "1.21.0-rc.1",
+        "1.21.0-rc.2",
+        "1.21.0-rc.3",
+        "1.21.0-rc.4",
+        "1.21.0-rc.5",
+        "1.21.0-rc.6",
+        "1.21.0-rc.7",
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>Fixed rare server crash on player without permissions trying to change server side settings</p>",
+      "is_symlink": false
+    },
+    "playermodellib": {
+      "file_name": "playermodellib_1.9.7.zip",
+      "mod_name": "Player Model Library",
+      "installed_version": "1.9.7",
+      "latest_known_version": "1.10.11",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/playermodellib_1.10._5aa70f485cbcca58fe2fa3a68ee6702b.zip?dl=playermodellib_1.10.11.zip",
+      "game_versions": [
+        "1.21.0-pre.1",
+        "1.21.0-pre.2",
+        "1.21.0-pre.3",
+        "1.21.0-rc.1",
+        "1.21.0-rc.2",
+        "1.21.0-rc.3",
+        "1.21.0-rc.4",
+        "1.21.0-rc.5",
+        "1.21.0-rc.6",
+        "1.21.0-rc.7",
+        "1.21.0",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>Added more error logging and increased overall stability</p>",
+      "is_symlink": false
+    },
+    "vsinstrumentsbase": {
+      "file_name": "vsinstrumentsbase_2.0.7.zip",
+      "mod_name": "VSinstruments Base",
+      "installed_version": "2.0.7",
+      "latest_known_version": "2.0.7",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/vsinstrumentsbase_2._1e2514b03f06f2afae5b5bfe135f0116.zip?dl=vsinstrumentsbase_2.0.7.zip",
+      "game_versions": [
+        "1.21.6"
+      ],
+      "latest_changelog": "<ul>\r\n<li>Added compatibility for more instruments packs ('high mic', to&nbsp; be specific - thanks to Captainredbeard!)</li>\r\n<li>Removed FadeAndStop\r\n<ul>\r\n<li>For many players, songs sound a bit dreary with every note fading at the same rate</li>\r\n<li>More importantly, songs with lots of notes cause the game to slow down a LOT, which is, of course, no good</li>\r\n<li>Until we can find a solution that doesn't affect performance, it's best to stick with what's safe</li>\r\n</ul>\r\n</li>\r\n<li>Fixed ABC blocks finding server songs, it now uses the file location from the config file</li>\r\n<li>Updated game version to 1.21.6</li>\r\n</ul>",
+      "is_symlink": false
+    }
+  },
+  "last_sync": "2026-02-22 01:10",
+  "file_location": "C:\\\\Users\\\\Daniel\\\\Desktop\\\\Aos-Modpack\\\\core modlist\\\\Catagories\\libraries\\rustique-sync.json"
+}
