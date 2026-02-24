@@ -1,0 +1,113 @@
+{
+  "RustiqueSync": {
+    "detailedanimals": {
+      "file_name": "detailedanimals_0.7.2.zip",
+      "mod_name": "Truth and Beauty: Detailed Animals",
+      "installed_version": "0.7.2",
+      "latest_known_version": "0.7.4",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/detailedanimals_0.7._425336dfe446907187ff9226161b76e5.zip?dl=detailedanimals_0.7.4.zip",
+      "game_versions": [
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>Probably fix crash on entity initialization</p>",
+      "is_symlink": false
+    },
+    "rats": {
+      "file_name": "rats_0.5.1.zip",
+      "mod_name": "Rats",
+      "installed_version": "0.5.1",
+      "latest_known_version": "0.5.1",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/rats_0.5.1_8e2f84f1b9e6b6b6f329e8de0e0d6854.zip?dl=rats_0.5.1.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>Tiny update:</p>\r\n<ul>\r\n<li>Improved textures of coats</li>\r\n<li>Minor animation tweaks</li>\r\n<li>Added new genetics that bring from 3 -&gt; 11 base coat colors, most currently can only be seen through breeding and certain gene combinations (coat patterns coming soon for even more variety!)</li>\r\n<li>New rare albino rat generates alongside the agouti and black rat in the wild, wanted to make it artic specific but haven't gotten there yet</li>\r\n<li>Rats can hold berries and eat them in their little cute paws like racoons</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "diversediets": {
+      "file_name": "DiverseDiets-v1.0.3.zip",
+      "mod_name": "Diverse Diets",
+      "installed_version": "1.0.3",
+      "latest_known_version": "1.0.3",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/DiverseDiets-v1.0.3_16f8c900c5cbe3c5190989915fc66abf.zip?dl=DiverseDiets-v1.0.3.zip",
+      "game_versions": [
+        "1.21.4",
+        "1.21.5",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p><span style=\"font-weight: 400;\">Tweak-Removed thatch from small trough due to grass not fitting there</span></p>",
+      "is_symlink": false
+    },
+    "bovinae": {
+      "file_name": "FotSA-Bovinae-v0.3.5.zip",
+      "mod_name": "Fauna of the Stone Age: Bovinae",
+      "installed_version": "0.3.5",
+      "latest_known_version": "0.3.5",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/FotSA-Bovinae-v0.3.5_03d4ca207124ffc4a305f6077fd5d327.zip?dl=FotSA-Bovinae-v0.3.5.zip",
+      "game_versions": [
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>Tweak-Meat and fat restored to one entry in drop list for easier config additions<br />Updated-1 hide is always dropped from killed animals</p>",
+      "is_symlink": false
+    },
+    "bovinaddon": {
+      "file_name": "bovinaddon-1.0.0.zip",
+      "mod_name": "Bovinaddon",
+      "installed_version": "1.0.0",
+      "latest_known_version": "1.0.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/bovinaddon_8b70132b2ed31c16364c603581ce4eca.zip?dl=bovinaddon.zip",
+      "game_versions": [
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "",
+      "is_symlink": false
+    },
+    "seasonalbreeding": {
+      "file_name": "seasonalbreeding_1.1.0.zip",
+      "mod_name": "Seasonal Animal Breeding",
+      "installed_version": "1.1.0",
+      "latest_known_version": "1.1.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/seasonalbreeding_1.1_7a55edd637cc88df747a3adafbe536d4.zip?dl=seasonalbreeding_1.1.0.zip",
+      "game_versions": [
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>Add compatibility with Fauna of the Stone Age mods - Kwyl</p>",
+      "is_symlink": false
+    },
+    "butchering": {
+      "file_name": "butchering_1.10.17.zip",
+      "mod_name": "Butchering",
+      "installed_version": "1.10.17",
+      "latest_known_version": "1.12.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/butchering_1.12.0_d985c31e985758d40d62f0602ed5b6f2.zip?dl=butchering_1.12.0.zip",
+      "game_versions": [
+        "1.21.6"
+      ],
+      "latest_changelog": "<div>\r\n<div>\r\n<div class=\"release-changelog\">\r\n<div>\r\n<div>\r\n<div class=\"release-changelog\">\r\n<p><strong>Stats For Modders, Xskills Exp and Bleed Out Time 1.12.0</strong></p>\r\n<ul>\r\n<li>Added in 4 new stats that class modders can add to their mods with 1 WIP (will add more info on the mod page soon).</li>\r\n<li>Variable bleed out times for bigger/smaller animals.</li>\r\n<li>Extra Xskills exp for butchering animals through the system based on size and stat (see first bullet point).</li>\r\n<li>Lots learned code wise on my part (not much to show in that regard on 'paper').</li>\r\n<li>Primitive Butcher Hooks can be made with fat but not later ones.</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>This may not seem too much but it has taken me alot of time to work out these things and alot of things had to be moved around for this update to work.<br />Many Thanks,</p>\r\n<p>CaptainOats</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+      "is_symlink": false
+    }
+  },
+  "last_sync": "2026-02-22 01:10",
+  "file_location": "C:\\\\Users\\\\Daniel\\\\Desktop\\\\Aos-Modpack\\\\core modlist\\\\Catagories\\animals\\rustique-sync.json"
+}

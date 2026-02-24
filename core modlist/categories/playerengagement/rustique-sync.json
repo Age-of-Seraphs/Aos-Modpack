@@ -1,0 +1,241 @@
+{
+  "RustiqueSync": {
+    "arthursjournal": {
+      "file_name": "wanderers-sketchbook-1.0.3.zip",
+      "mod_name": "Wanderer's Sketchbook",
+      "installed_version": "1.0.3",
+      "latest_known_version": "1.0.3",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/wanderers-sketchbook_05ab2022a9734fa1aca152bb883ef270.zip?dl=wanderers-sketchbook-1.0.3.zip",
+      "game_versions": [
+        "1.21.5",
+        "1.21.6"
+      ],
+      "latest_changelog": "<ul>\r\n<li><strong>Fixed: </strong>Disconnect error when loading journal pages on the servers</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "rpvoicechat": {
+      "file_name": "rpvoicechat_2.4.1.zip",
+      "mod_name": "RP Voice Chat",
+      "installed_version": "2.4.1",
+      "latest_known_version": "2.4.3",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/rpvoicechat_2.4.3_12cd3dfe01c19cced6ac59262ecbfeb7.zip?dl=rpvoicechat_2.4.3.zip",
+      "game_versions": [
+        "1.21.5",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>RPVoiceChat v2.4.2 released</p>\r\n<p>[ADDED] \"Bell hammer\" block (🚧Handbook missing)<br />[ADDED] Important audio optimization : separating audio packet sending away from the check on who can listen to audio being sent<br />[FIXED] Downgrade game compatibility to 1.21.5 to allow \"big server\" testing</p>",
+      "is_symlink": false
+    },
+    "tabletopgames": {
+      "file_name": "TabletopGames-v3.0.3.zip",
+      "mod_name": "Tabletop Games",
+      "installed_version": "3.0.3",
+      "latest_known_version": "3.0.5",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/TabletopGames-v3.0.5_b191f0f05a778391b6f087e7835751d5.zip?dl=TabletopGames-v3.0.5.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>Tweak: Added Belarusian translation by k1llo</p>",
+      "is_symlink": false
+    },
+    "transcribetobook": {
+      "file_name": "transcribetobook_2.1.0.zip",
+      "mod_name": "TranscribeToBook",
+      "installed_version": "2.1.0",
+      "latest_known_version": "2.1.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/transcribetobook_2.1_2e78c4bb80c4927018c7449aa2792b0c.zip?dl=transcribetobook_2.1.0.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1"
+      ],
+      "latest_changelog": "<ul>\r\n<li>The page number is no longer embedded into the transcribed item</li>\r\n<li>The button is now called \"Transcribe to book\" to make it clearer</li>\r\n<li>The button is no longer disabled when you don't have an ink and quill in your offhand. The check is done server-side</li>\r\n<li>More clear error messages</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "vsinstruments_quackpack": {
+      "file_name": "vsinstruments_quackpack_1.0.2.zip",
+      "mod_name": "vsinstruments_quackpack",
+      "installed_version": "1.0.2",
+      "latest_known_version": "1.0.2",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/vsinstruments_quackp_7f4cce2a9c61f4c97498d9fb393b0818.zip?dl=vsinstruments_quackpack_1.0.2.zip",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "latest_changelog": "<ul>\r\n<li>Added and updated language files:\r\n<ul>\r\n<li>English</li>\r\n<li>French</li>\r\n<li>Spanish</li>\r\n<li>Italian</li>\r\n<li>Portuguese</li>\r\n<li>Polish</li>\r\n<li>Ukrainian</li>\r\n<li>Russian</li>\r\n<li>Chinese</li>\r\n<li>Japanese</li>\r\n<li>Korean</li>\r\n<li>For most of these I used chatgpt, so if there are mistakes please let me know</li>\r\n<li>Thanks to everyone who contributed!</li>\r\n</ul>\r\n</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "billposting": {
+      "file_name": "billposting_1.0.2.zip",
+      "mod_name": "Billposting",
+      "installed_version": "1.0.2",
+      "latest_known_version": "1.1.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/billposting_1.1.0_9fc46b0afa0099817af2750f2ab6df16.zip?dl=billposting_1.1.0.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1"
+      ],
+      "latest_changelog": "<p>Signed parchments turned into billposts can now only be picked up by their original author or by someone with the \"buildblockseverywhere\" permission (the permission that bypasses claims)</p>",
+      "is_symlink": false
+    },
+    "instrumentssbc": {
+      "file_name": "instrumentssbc_0.3.2.zip",
+      "mod_name": "Instruments : Starbound Complete",
+      "installed_version": "0.3.2",
+      "latest_known_version": "1.0.2",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/instrumentssbc_1.0.2_319e0e249e489624bc2875c5ef3abfd1.zip?dl=instrumentssbc_1.0.2.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6",
+        "1.22.0-pre.1"
+      ],
+      "latest_changelog": "<p>fixed hammer dulcimer not working.</p>",
+      "is_symlink": false
+    },
+    "vinconomy": {
+      "file_name": "vinconomy_5.2.1.zip",
+      "mod_name": "Vinconomy",
+      "installed_version": "5.2.1",
+      "latest_known_version": "5.2.1",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/vinconomy_5.2.1_a46ccae64e2adadbaba80618133783bc.zip?dl=vinconomy_5.2.1.zip",
+      "game_versions": [
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<h1><span style=\"color: #e74c3c;\">WARNING:</span></h1>\r\n<p><span style=\"color: #e74c3c;\">Meal Stalls have been rewritten from the ground up. Their underlying inventory system and serialization is not compatible with the new implementation and there is no way to make it forward-compatible - There were many cases where this system was broken and trying to convert to the new system would lead to corrupted item stacks. Any meals stored in these stalls will be lost!</span></p>\r\n<h2>Fixes</h2>\r\n<ul>\r\n<li>Meal Stalls not honoring coupons</li>\r\n<li>Meal Stalls not handling liquid portions correctly</li>\r\n<li>Meal Stalls not handling non-uniform item stacks</li>\r\n<li>Meal Stalls not handling perish rates correctly - Now uses default meal container logic and sets the current transition state to the same thing for all ingredient stacks</li>\r\n<li>Meal Stalls not honoring co-ownership</li>\r\n<li>Meal Stalls having difficulty with expanded foods meals with more than 4 ingredients. Can support an infinite amount now, but will only display up to 6 ingredients</li>\r\n<li>Meal Stalls should be more lax and consistent when selling food - should combine servings more reliably</li>\r\n<li>Removed overly agressive check for Arrowheads. Arrowheads can now be placed in shop mats</li>\r\n<li>Fixed a number of similar item duplication exploits</li>\r\n<li>Added missing number wangs for setting the currency stack amount for Sculpture Pad</li>\r\n<li>Coupons and Currency now get inserted into the dedicated slots in Registers as intended</li>\r\n<li>Fixed a number of missing cases for when the Customer UI is forced with \".vincon fc true\" and still shows the owner GUI</li>\r\n<li>Fixed a weird inconsistent bug where Decoration Blocks could not be removed from Liquid Dispensers and Meal Stalls.</li>\r\n</ul>\r\n<h2>Tweaks</h2>\r\n<ul>\r\n<li>Meal Stalls save the recipe code for more consisten matching and should result in fewer \"unknown meals\"</li>\r\n<li>Meal Stall UI has been entirely redone from scratch</li>\r\n<li>Meal Stalls no longer accept Bowls as an input (Sorry, Tyron changed the entire class heirarchy in regards to bowls, pots, and crocks. After about 5 hours of pulling out my hair trying to get it to work, I gave up.)</li>\r\n<li>Meal Stalls now show the ingredient list retroactively from the meal instead of storing the individual ingredients</li>\r\n<li>Teller Machine has had its UI redone to remove the confusing \"Reverse Trade\" options from the owner GUI. Now this only shows for the customer</li>\r\n<li>Added Face and Neck clothing items as valid items for Shop Mat slots</li>\r\n<li>Added Handbook description for Purchase Crates that they are intended to <span style=\"background-color: #ffffff; color: #e74c3c;\">PURCHASE ITEMS, not SELL ITEMS</span></li>\r\n</ul>\r\n<h2>New Features</h2>\r\n<ul>\r\n<li>Meal Stall has a new slot for adding / removing servings from the slots - Click the +1, +5, -1, and -5 to add or remove servings from the container</li>\r\n<li>Added an <em><strong>excessive</strong> </em>amount of tooltip entries for almost every label for each UI screen describing what the purpose of that field or section is for. Should help reduce the need to consult the mod page, tutorials, or handbook in order to figure out what does what</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>This update was about 2 or 3 weeks worth of bug reports and issues via the Discord thread. If I missed anything that was previously reported and not corrected here, feel free to let me know it was missed.</p>",
+      "is_symlink": false
+    },
+    "coinage": {
+      "file_name": "coinage-1.20.0.zip",
+      "mod_name": "Coinage",
+      "installed_version": "1.20.0",
+      "latest_known_version": "2.0.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/coinage-2.0.0_8dfc6cf32a2211529de1f5b532355280.zip?dl=coinage-2.0.0.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<ul>\r\n<li>Fixed low framerate from having multiple coin stacks</li>\r\n<li>Added circle templates for the coin shaper gui</li>\r\n<li>I was going to make this an RC version but oh well I didnt, there may or may not be bugs. havent heard anything in the comments lately though. back up your save!</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "temporaltransporter": {
+      "file_name": "temporaltransporter_2.5.0.zip",
+      "mod_name": "TemporalTransporter",
+      "installed_version": "2.5.0",
+      "latest_known_version": "2.5.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/temporaltransporter__63ca5bd759255f33b1e33991ea8124d3.zip?dl=temporaltransporter_2.5.0.zip",
+      "game_versions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "latest_changelog": "<p>* Allow parcels from envelopes mod to be sent</p>",
+      "is_symlink": false
+    },
+    "envelopes": {
+      "file_name": "envelopes_2.4.1.zip",
+      "mod_name": "Envelopes",
+      "installed_version": "2.4.1",
+      "latest_known_version": "2.5.2",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/envelopes_2.5.2_2fa7203b76fe9ba17d6516c20822d4d9.zip?dl=envelopes_2.5.2.zip",
+      "game_versions": [
+        "1.21.0-pre.1",
+        "1.21.0-pre.2",
+        "1.21.0-pre.3",
+        "1.21.0-rc.1",
+        "1.21.0-rc.2",
+        "1.21.0-rc.3",
+        "1.21.0-rc.4",
+        "1.21.0-rc.5",
+        "1.21.0-rc.6",
+        "1.21.0-rc.7",
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<ul>\r\n<li>Fix seal-broken envelopes losing their seal after reopened</li>\r\n<li>Fix parcels auto-equipping clothes and armor stored in them upon opening.&nbsp;</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "tablet": {
+      "file_name": "tablet_v0.2.0.zip",
+      "mod_name": "Stone Tablets: Early Books",
+      "installed_version": "0.2.0",
+      "latest_known_version": "0.2.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/tablet_v0.2.0_758710a5a3b0343ea15e3636b085f8a3.zip?dl=tablet_v0.2.0.zip",
+      "game_versions": [
+        "1.18.0",
+        "1.18.15",
+        "1.19.0",
+        "1.19.8",
+        "1.20.0",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.20.7"
+      ],
+      "latest_changelog": "<ul>\r\n<li>Fixed copying tablets into books overwriting default book recipe for some reason</li>\r\n<li>Fixed warnings for missing stone types\r\n<ul>\r\n<li>You can now make tablets and stylus' out of all stones</li>\r\n</ul>\r\n</li>\r\n<li>Fixed auto equip function for stylus\r\n<ul>\r\n<li>Enabled by default - Disable with <code>/worldconfigcreate bool tabletEnabled false</code>​ And restart word/server</li>\r\n<li><code></code>ReEnable with <code>/worldconfigcreate bool tabletEnabled true</code>​ And restart world/server</li>\r\n</ul>\r\n</li>\r\n<li>Retargeted to .net7 so hopefully people dont have crashing issues anymore?</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "canmailbox": {
+      "file_name": "canmailbox_1.1.6.zip",
+      "mod_name": "canmailbox",
+      "installed_version": "1.1.6",
+      "latest_known_version": "1.1.6",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/canmailbox_1.1.6_df412caca8633bd987016712d9d18400.zip?dl=canmailbox_1.1.6.zip",
+      "game_versions": [
+        "1.21.6"
+      ],
+      "latest_changelog": "<ul>\r\n<li>missing owl mailbox added in creative tab to be shown in recipe list</li>\r\n</ul>",
+      "is_symlink": false
+    }
+  },
+  "last_sync": "2026-02-22 01:10",
+  "file_location": "C:\\\\Users\\\\Daniel\\\\Desktop\\\\Aos-Modpack\\\\core modlist\\\\Catagories\\playerengagement\\rustique-sync.json"
+}
