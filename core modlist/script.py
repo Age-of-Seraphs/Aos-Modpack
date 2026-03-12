@@ -2,6 +2,8 @@ import os
 import subprocess
 import sys
 
+#Python script to use rustique on all the modpack subfolders
+
 # ====== CONFIG ======
 PARENT_FOLDER = r"C:\\Users\\Daniel\\Desktop\\Aos-Modpack\\core modlist\\Catagories"
 RUSTIQUE_EXE = os.path.join(os.getcwd(), "rustique.exe")
