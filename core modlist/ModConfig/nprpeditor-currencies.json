@@ -1,0 +1,17 @@
+{
+  "currencies": [
+    {
+      "code": "rusty-gears",
+      "name": "Rusty Gears",
+      "entries": [
+        {
+          "stack": "AQAAAGgFAAABAAAAAA==",
+          "multiple": 1,
+          "value": 1.0,
+          "coinName": "Rusty Gear",
+          "abbreviation": "RG"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "pathSearchRadius": 100,
+  "paths": [
+    {
+      "code": "main-path",
+      "name": "Main Path",
+      "nodes": []
+    }
+  ]
+}
