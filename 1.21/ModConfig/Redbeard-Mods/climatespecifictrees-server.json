@@ -1,0 +1,113 @@
+{
+  "enableStuntedGrowthTempurature": true,
+  "enableStuntedGrowthRain": true,
+  "enableStuntedGrowthFertility": true,
+  "enableStuntedGrowthForest": false,
+  "enableStuntedGrowthHeight": true,
+  "climateGrowthMod": 12.0,
+  "MinTempAddition": 0.0,
+  "MaxTempAddition": 0.0,
+  "MinRainAddition": 0,
+  "MaxRainAddition": 0,
+  "MinFertAddition": 0,
+  "MaxFertAddition": 0,
+  "MinForestAddition": 0,
+  "MaxForestAddition": 0,
+  "MinHeightAddition": 0,
+  "MaxHeightAddition": 0,
+  "heightMinBound": 0.0,
+  "heightMaxBoundAddition": 0.0,
+  "treeGenBlacklist": [
+    "bamboo-grown-green",
+    "bamboo-grown-brown"
+  ],
+  "treeGenCategories": {
+    "silverbirch": [
+      "riverbirch",
+      "himalayanbirch"
+    ],
+    "englishoak": [
+      "oldenglishoak"
+    ],
+    "sugarmaple": [
+      "japanesemaple",
+      "norwaymaple",
+      "mountainmaple"
+    ],
+    "scotspine": [
+      "bristleconepine",
+      "mountainpine",
+      "fir"
+    ],
+    "larch": [
+      "deepforestlarch"
+    ],
+    "baldcypress": [
+      "baldcypressswamp"
+    ],
+    "kapok": [
+      "largekapok",
+      "largekapok2",
+      "oldkapok"
+    ],
+    "acaciaaneura": [
+      "acaciatetragonophylla"
+    ],
+    "afrocarpusfalcatus": [
+      "afrocarpusfalcatuslarge"
+    ],
+    "araucariaheterophylla": [
+      "araucariaheterophyllalarge"
+    ],
+    "birch": [
+      "betulaplatyphylla"
+    ],
+    "caricapapaya": [
+      "caricapapayaempty"
+    ],
+    "cocosnucifera": [
+      "cocosnuciferaempty",
+      "cocosnuciferalow",
+      "cocosnuciferashort"
+    ],
+    "corymbiaaparrerinja": [
+      "corymbiaaparrerinjacrooked"
+    ],
+    "ceibapentandra": [
+      "ceibapentandralarge"
+    ],
+    "dacrydiumcupressinum": [
+      "dacrydiumcupressinummedium",
+      "dacrydiumcupressinumsmall"
+    ],
+    "diospyroswhyteana": [
+      "diospyroswhyteanaempty"
+    ],
+    "lagunculariaracemosa": [
+      "lagunculariaracemosaempty"
+    ],
+    "nothofagusmenziesii": [
+      "nothofagusmenziesiilarge"
+    ],
+    "pinuscaribaea": [
+      "pinusdensiflora",
+      "pinushalepensis",
+      "pinustecunumanii"
+    ],
+    "podocarpustotara": [
+      "podocarpustotaralarge"
+    ],
+    "psuedopanaxcrassifolius": [
+      "psuedopanaxcrassifoliusyoung"
+    ],
+    "pterocelastrustricuspidatus": [
+      "pterocelastrustricuspidatuslarge"
+    ],
+    "quercuscostaricensis": [
+      "quercuscostaricensistall"
+    ],
+    "roystonearegia": [
+      "roystonearegiaempty"
+    ]
+  }
+}

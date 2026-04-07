@@ -1,7 +1,0 @@
-{
-  "InterceptorRadius": 25,
-  "SendCooldownSeconds": 10,
-  "OnlyUsableAboveYLevel": 50,
-  "ChargesPerGear": 1,
-  "TransmissionSoundRange": 128
-}

@@ -1,0 +1,49 @@
+{
+  "RustiqueSync": {
+    "ndlmushroomgrowth": {
+      "file_name": "ndlmushroomgrowth_1.1.0.zip",
+      "mod_name": "NDL MushroomGrowth",
+      "installed_version": "1.1.0",
+      "latest_known_version": "1.1.1",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/ndlmushroomgrowth_1._8bcf930d4de9683737c4ee0167e138c4.zip?dl=ndlmushroomgrowth_1.1.1.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p><strong>New Features:<br /></strong>- None</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Updates:<br /></strong>- Removed some unneccesary items from the creative mod tab</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Bug Fixes:<br /></strong>- Fixed a crash error when you try to place a trough on a trough<br />&nbsp; &nbsp; &nbsp;- Thanks @tincancrab (discord name) for point this out&nbsp;</p>",
+      "is_symlink": false
+    },
+    "soaplyeandbloom": {
+      "file_name": "SoapLyeandBloomV1.3.6.zip",
+      "mod_name": "Soap and Lye: Bloom and Lather",
+      "installed_version": "1.3.6",
+      "latest_known_version": "1.3.6",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/SoapLyeandBloomV1.3._904aa161d33ddc2f93b911d48040e134.zip?dl=SoapLyeandBloomV1.3.6.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1"
+      ],
+      "latest_changelog": "<ul>\r\n<li>Fixed liquid soap recipe for turning colored cloth/leather into mordant cloth/leather and for turning morant cloth into plain cloth with scented soaps. Thanks <a class=\"mention username mceNonEditable\" href=\"https://mods.vintagestory.at/show/user/9BF38061101A0FAC5368\" data-user-hash=\"9BF38061101A0FAC5368\">mayonnaise</a>!</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "expandedbeekeeping": {
+      "file_name": "ExpandedBeekeeping-0.0.1.zip",
+      "mod_name": "Expanded Beekeeping",
+      "installed_version": "0.0.1",
+      "latest_known_version": "0.0.1",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/ExpandedBeekeeping-0_86936480b1fc45dc4c6e7a1e79e849d1.zip?dl=ExpandedBeekeeping-0.0.1.zip",
+      "game_versions": [
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>Updated logic for brood boxes/apiaries outside loaded chunks.</p>\r\n<p>Lang file now covers all translatable text.</p>",
+      "is_symlink": false
+    }
+  },
+  "last_sync": "2026-02-22 01:10",
+  "file_location": "C:\\\\Users\\\\Daniel\\\\Desktop\\\\Aos-Modpack\\\\core modlist\\\\Catagories\\farming\\rustique-sync.json"
+}

@@ -1,0 +1,86 @@
+{
+  "RustiqueSync": {
+    "purposefulstorage": {
+      "file_name": "purposefulstorage-1.5.1.zip",
+      "mod_name": "PurposefulStorage",
+      "installed_version": "1.5.1",
+      "latest_known_version": "1.5.1",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/purposefulstorage_1._0f60164a6c247dd1ce360f6f5087174e.zip?dl=purposefulstorage_1.5.1.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>&nbsp;</p>\r\n<div style=\"text-align: center;\"><strong>Changes:</strong></div>\r\n<ul>\r\n<li>Updated the Mod Icon.</li>\r\n<li>Updated Polish translation - <em>thanks zsuatem!</em></li>\r\n</ul>\r\n<div>&nbsp;</div>\r\n<div style=\"text-align: center;\"><strong>Fixes:</strong></div>\r\n<ul>\r\n<li>Fixed some of the Armlets clipping through the Glove Rack.</li>\r\n<li><strong>Fixed the Vanilla Spear positioning</strong> in the Spear Rack.</li>\r\n<li>Properly updated block entity code to work with empty .json transformations.</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "specialexpandedbags": {
+      "file_name": "SpecialtyBagsRevived_1.1.13.zip",
+      "mod_name": "SpecializedBags Revived",
+      "installed_version": "1.1.13",
+      "latest_known_version": "1.1.13",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/SpecialtyBagsRevived_00bfbccf8ee6b7ebc114087c11cdfa87.zip?dl=SpecialtyBagsRevived_1.1.13.zip",
+      "game_versions": [
+        "1.21.4"
+      ],
+      "latest_changelog": "<ul>\r\n<li>Added new clay/ceramics items from base game</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "foodshelves": {
+      "file_name": "foodshelves-2.3.3.zip",
+      "mod_name": "FoodShelves",
+      "installed_version": "2.3.3",
+      "latest_known_version": "2.3.3",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/foodshelves_2.3.3_bbbfc9c55cd83336e532481c330c3094.zip?dl=foodshelves_2.3.3.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>&nbsp;</p>\r\n<div style=\"text-align: center;\"><strong>Changes:</strong></div>\r\n<ul>\r\n<li>Added Soybean to the Ceiling Jar whitelist.</li>\r\n<li><strong>Added a config option to change how long Cut Ice takes to melt</strong>.</li>\r\n<li><strong>Added a config option to enable Lake Ice in recipes for Cut Ice</strong>, for mods that make gathering Lake Ice possible.\r\n<ul>\r\n<li>Removed the patch that enables this recipe when having the IcyExec mod enabled.</li>\r\n</ul>\r\n</li>\r\n<li>Updated Polish translation - <em>thanks zsuatem!</em></li>\r\n</ul>\r\n<div>&nbsp;</div>\r\n<div style=\"text-align: center;\"><strong>Fixes:</strong></div>\r\n<ul>\r\n<li><a href=\"https://mods.vintagestory.at/detailedanimals\"><span style=\"color: #3598db;\"><strong>(DA)</strong></span></a> Compatibility patch for Detailed Animals fixed and updated.</li>\r\n<li>Possibly fixed an occasional 0 stack issue with the Meat Freezer.</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "foodcrate": {
+      "file_name": "foodcrate_2.2.1.zip",
+      "mod_name": "Food crate (aka Storage Urn)",
+      "installed_version": "2.2.1",
+      "latest_known_version": "2.2.1",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/foodcrate_2.2.1_36ef305dde56fb982f87317ec13e13de.zip?dl=foodcrate_2.2.1.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "latest_changelog": "<p>Fix crash when added non-spoilable items to the urn.</p>",
+      "is_symlink": false
+    }
+  },
+  "last_sync": "2026-02-22 01:10",
+  "file_location": "C:\\\\Users\\\\Daniel\\\\Desktop\\\\Aos-Modpack\\\\core modlist\\\\Catagories\\storage\\rustique-sync.json"
+}

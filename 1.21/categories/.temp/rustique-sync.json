@@ -1,0 +1,99 @@
+{
+  "RustiqueSync": {
+    "webcartographer": {
+      "file_name": "webcartographer_0.9.0.zip",
+      "mod_name": "WebCartographer",
+      "installed_version": "0.9.0",
+      "latest_known_version": "0.9.0",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/webcartographer_0.9._e7eeb22ad2048ec6d1a282530c362554.zip?dl=webcartographer_0.9.0.zip",
+      "game_versions": [
+        "1.21.0-pre.1",
+        "1.21.0-pre.2",
+        "1.21.0-pre.3",
+        "1.21.0-rc.1",
+        "1.21.0-rc.2",
+        "1.21.0-rc.3",
+        "1.21.0-rc.4",
+        "1.21.0-rc.5",
+        "1.21.0-rc.6",
+        "1.21.0-rc.7",
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>This release finaly adds an integrated web server to the mod. That means if you enable it in the config and start the server you can already browse the webmap without the need to install anything else. To support this your hosting provide will need to allow HTTP traffic on the specified port to work to your game server.<br />If you want the web map to be accessible from anywhere you will need to change the \"Host\": \"localhost\" to \"Host\": \"*\"<br /><br />Further this release add support for manually overriding any blocks colors with a custom one. This feature is now requiered on mode 4 (color accurate style) to now show any white blocks on the map.<br /><br />- Fixed caves not rendering using the top most block and rendering air blocks as white</p>",
+      "is_symlink": false
+    },
+    "extrainfo": {
+      "file_name": "ExtraInfo-v1.11.2.zip",
+      "mod_name": "Extra Info",
+      "installed_version": "1.11.2",
+      "latest_known_version": "1.11.2",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/ExtraInfo-v1.11.2_0549e542a048b2ffb9bd7632c92dc6e0.zip?dl=ExtraInfo-v1.11.2.zip",
+      "game_versions": [
+        "1.21.0",
+        "1.21.1-rc.1",
+        "1.21.1-rc.2",
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<ul>\r\n<li>Fixed: Coke not displaying progress info correctly sometimes</li>\r\n<li>Improved steel making info:<br />\r\n<ul>\r\n<li>Improved iron door detection to recognize both standard irondoor and metal door variants</li>\r\n<li>Fixed coffin detection distance (changed from 3 to 2 blocks to match actual placement)</li>\r\n<li>Added support for detecting stonecoffinsection blocks</li>\r\n<li>Added fuel status display showing whether the coal pile is burning and remaining burn time in hours/minutes</li>\r\n<li>Optimized search by stopping once a coffin is found</li>\r\n</ul>\r\n</li>\r\n<li>Added beehive kiln progress info</li>\r\n</ul>",
+      "is_symlink": false
+    },
+    "landformhud": {
+      "file_name": "landformhud_1.0.1.zip",
+      "mod_name": "LandformHud",
+      "installed_version": "1.0.1",
+      "latest_known_version": "1.0.1",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/landformhud_1.0.1_a9fa5864fb77f43822a21463cfa792f6.zip?dl=landformhud_1.0.1.zip",
+      "game_versions": [
+        "1.21.1",
+        "1.21.2-rc.1",
+        "1.21.2-rc.2",
+        "1.21.2-rc.3",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<p>-Ensured still working and built against 1.21.6 to refresh the mod.</p>",
+      "is_symlink": false
+    },
+    "blocksoverlay": {
+      "file_name": "blockoverlay-4.8.2.zip",
+      "mod_name": "Block overlay",
+      "installed_version": "4.8.2",
+      "latest_known_version": "4.8.2",
+      "latest_download_url": "https://moddbcdn.vintagestory.at/blockoverlay-4.8.2_8540ec168920fb02fb46fdc6a88121e8.zip?dl=blockoverlay-4.8.2.zip",
+      "game_versions": [
+        "1.21.5",
+        "1.21.6-rc.1",
+        "1.21.6"
+      ],
+      "latest_changelog": "<ul>\r\n<li>HandleLevelFinalize goes in a big try/catch so I get actual useful error info</li>\r\n<li>Print an error message if config file deserialization fails</li>\r\n<li>Print an error message if groups file deserialization fails</li>\r\n</ul>",
+      "is_symlink": false
+    }
+  },
+  "last_sync": "2026-02-22 00:41",
+  "file_location": "C:\\Users\\Daniel\\Desktop\\Aos-Modpack\\core modlist\\Catagories\\.temp\\rustique-sync.json"
+}
