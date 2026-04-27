@@ -1,0 +1,9 @@
+version: 1
+
+# Should Bellhead Shivers have Bell behavior?
+Bellhead Shivers: true
+ #  (default: true) 
+
+# Should Shiver jaws be open or closed?
+Open-Jaw Shivers: true
+ #  (default: true) 
